@@ -204,7 +204,7 @@ background-color:var(--platinum);
 }
 .contact .contact-me{
   display: flex;
-  justify-content: end;
+  justify-content: center;
   flex-wrap: wrap;
   gap: 20px;
 }
@@ -249,3 +249,10 @@ background-color:var(--platinum);
   padding: 8px 0;
 
 }
+footer{
+  text-align: center;
+  padding: 20px;
+  color: var(--white);
+  background-color: var(--dark-gunmetal);
+}
+
