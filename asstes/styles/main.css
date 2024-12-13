@@ -15,6 +15,9 @@ ul{
 img{
   max-width: 100%;
 }
+section {
+  padding: 80px 0;
+}
 
 :root {
   --white: #ffffff;
@@ -74,9 +77,6 @@ nav ul li a{
 }
 .hero{
 background-color:var(--platinum);
-padding: 80px 0;
-
- 
 }
 .hero .container{
   display: flex;
@@ -128,3 +128,37 @@ padding: 80px 0;
   background-color: var(--white);
   color: var(--dark-gunmetal);
  }
+ .services{
+  text-align: center;
+  margin-top: 100px;
+ }
+ 
+ .services .container .cards{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  
+ }
+.services .container .cards .card{
+  margin-top: 50px;
+  width: 250px;
+  padding: 20px ;
+  color: var(--white);
+  background-color: var(--dark-gunmetal);
+  border-radius: 10px;
+}
+.services .container .cards .card img{
+ margin-bottom: 20px;
+
+}
+
+.card p{
+  margin: 20px 0;
+  line-height: 1.5;
+}
+.card h2{
+  margin-bottom:20px;
+
+}
